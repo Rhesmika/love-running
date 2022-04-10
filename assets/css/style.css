@@ -23,20 +23,21 @@ h1,h2{
     font-size: 280%;
     margin-left: 30px;
 }
-ul{
-    float:right;
-}
+
+
 /* navigation link */
 
 #menu{
     font-size: 110%;
     letter-spacing: 4px;
 }
+
 #menu, #logo{
     line-height: 75px;
 }
+
 #menu li{
-    float: left;
+    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
@@ -45,12 +46,13 @@ ul{
     text-decoration: none;
     color: inherit;
 }
+
 #menu a:hover{
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .active{
-    border-bottom: 1px solid #3a3a3a
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /* hero image and cover text */
@@ -131,6 +133,7 @@ ul{
     width: 33%;
     margin: 0 auto;
 }
+
 hr{
     border-top: 1px solid #3a3a3a;
     width: 100%;
@@ -166,6 +169,7 @@ hr{
     margin: 20px 0;
     font-size: 280%;
 }
+
 #circle-container{
     width: 300px;
     height: 300px;
@@ -176,6 +180,7 @@ hr{
     border-radius: 50%;
     margin: 0 auto;
 }
+
 #circle-cover-bg{
     background: url(../images/ethos-center-image.jpeg) no-repeat center center;
     height: 100%;
@@ -202,6 +207,29 @@ hr{
     border: 2px solid white;
     box-sizing: border-box;
 }
+
 #times h2{
-    color: #fafafa
+    color: #fafafa;
+}
+
+/* footer */
+
+footer{
+    height: 150px;
+}
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks > li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+
 }
